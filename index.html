@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links" style="color: white;">
+            <li><a href="#">Home</a></li>  
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/myimg2.jpeg" alt="John Doe profile picture"  style = "width:300px "class="about-pic"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title"> Dileep Kumar</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div id="socials-container">
+          <img
+            src="linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/dileep-kumar-4891b8228/'"
+          />
+          <img
+            src="github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/dileep-kumar-bandari'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            
+            <div class="details-container">
+              <img
+                src="Education.jpg"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.tech Bachelors Degree <br /> Computer Science Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                I'm a people person through and through, and I thrive in team environments. I pride myself on being a great
+                 communicator, and I have a knack for building strong and positive relationships with everyone I work with, 
+                 whether it's colleagues or clients. I'm the kind of team player who listens actively, collaborates eagerly, 
+                 and always aims to achieve our goals together. Plus, I'm pretty good at making complex ideas sound simple 
+                 and easy to understand.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="experience" style="margin-left: 100px; margin-right: 100px;">
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <div class="skill">
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <div class="skill">
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <div class="skill">
+                  <h3>java</h3>
+                </div>
+              </article>
+              <article>
+                <div class="skill">
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <div class="skill">
+                  <h3>Python3</h3>
+                </div>
+              </article>
+              <article>
+                <div class="skill">
+                  <h3>C</h3>
+                </div>
+              </article>
+              <article>
+                <div class="skill">
+                  <h3>c++</h3>
+                </div>
+              </article>
+              <article>
+                <div class="skill">
+                  <h3>SQl</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+   
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="dk2818189@gmail.com">Mail</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/dileep-kumar-4891b8228/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright &#169; 2023 Dileep Kumar All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
