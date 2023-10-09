@@ -1,4 +1,3 @@
-/* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
@@ -8,7 +7,6 @@
 }
 
 body {
-  /* font-family: "Poppins", sans-serif; */
   background-color: #202020d4;
   color: white;
 
@@ -253,19 +251,6 @@ section {
 
 #experience {
   position: relative;
-}
-
-.experience-sub-title {
-  color: rgb(85, 85, 85);
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-}
-
-.experience-details-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 
 .article-container {
